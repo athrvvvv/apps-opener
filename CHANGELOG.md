@@ -5,6 +5,15 @@ This changelog is addressed to PyPi module [AppOpener].
 
 ---
 
+## [1.8] - 2024-04-27
+
+### Changed
+- `give_appnames` function to return application names in a lexicographically sorted order
+
+---
+
+---
+
 ## [1.7] - 2023-04-30
 
 ### Added
