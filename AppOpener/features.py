@@ -213,9 +213,9 @@ def give_appnames(upper=False):
             change = {k.upper() : None}
             dict.update(change)
         keys_upper = dict.keys()
-        return keys_upper
+        return sorted(keys_upper)
     if upper == False:
-        return keys
+        return sorted(keys)
 
 # Function for making list
 def mklist(name="", path="", output=True):
